@@ -6,9 +6,10 @@ function arrayFilter(sentence){
         var currentWord = words[i];
         if (currentWord.length > 3) {
             biggerThanThree.push(currentWord);
-            console.log(biggerThanThree);
         }
     }
+    console.log(biggerThanThree.join(" "));
+    return biggerThanThree.join(" ");
 }
 
 arrayFilter("London is a big city in the United Kingdom");
