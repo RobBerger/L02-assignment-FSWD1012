@@ -1,6 +1,7 @@
 function arrayFilter(sentence){
-    // FUNCTION CODE GOES HERE
+    var words = sentence.split(" ");
+    console.log(words);
 }
 
-arrayFilter("London is a big city in the United Kingdom")
+arrayFilter("London is a big city in the United Kingdom");
 // should return "London city United Kingdom"
