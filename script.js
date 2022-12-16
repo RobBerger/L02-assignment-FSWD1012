@@ -3,7 +3,11 @@ function arrayFilter(sentence){
     var biggerThanThree = [];
 
     for (var i = 0; i < words.length; i++) {
-        console.log(words[i]);
+        var currentWord = words[i];
+        if (currentWord.length > 3) {
+            biggerThanThree.push(currentWord);
+            console.log(biggerThanThree);
+        }
     }
 }
 
